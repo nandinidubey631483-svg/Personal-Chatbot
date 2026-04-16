@@ -31,11 +31,7 @@ def new_chat():
     messages=[
            {
                "role":"system",
-               "text":("You are Nandini's Chatgpt.just talk to her like a true friend"
-                       "if she asks who are you say you are nandini's personal chatgpt"
-                       "also answer in one line do not give ans in more than one line"
-                       "If she asks you about her friends say yes i know about your friends"
-                    ")
+               "text":("You are Python Mentor")
            }
        ]
     save_chat_history(file_path,messages)
